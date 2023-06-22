@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "461163598304",
+    "project_id": "proyectokotlinprestamo",
+    "storage_bucket": "proyectokotlinprestamo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461163598304:android:ab9c251c07278252185b85",
+        "android_client_info": {
+          "package_name": "com.example.proyectof"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461163598304-8c5e09d1gviufikr3u970a3r873pn1ub.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.proyectof",
+            "certificate_hash": "615a5f589b1db53ac62d6ebb80e6c498ad573b2f"
+          }
+        },
+        {
+          "client_id": "461163598304-lvb9bt4bnv243tr36def5q3e26c4b4kc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADkXwrC22CEHxp-WakXP0ZD2GrisKgs9o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461163598304-lvb9bt4bnv243tr36def5q3e26c4b4kc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

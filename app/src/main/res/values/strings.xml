@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Simulador de Prestamos</string>
+
+    <string name="text_usuario">Usuario</string>
+    <string name="text_password">Contraseña</string>
+    <string name="boton_ingresar">Ingresar</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+
+</resources>

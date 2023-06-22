@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#63CFBF"
+    android:backgroundTint="#4FCFBC"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <include
+        layout="@layout/action_bar_toolbar"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="24dp"
+        android:text="DATOS DE CLIENTE"
+        android:textColor="#05309D"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edtNombres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:background="#FEFEFE"
+        android:digits="abcdefghijklmnñopqrstuvwxyz "
+        android:hint="Ingrese nombres" />
+
+    <EditText
+        android:id="@+id/edtDni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:background="#FFFFFF"
+        android:hint="Ingrese DNI"
+        android:inputType="number"
+        android:maxLength="8" />
+
+    <EditText
+        android:id="@+id/edtTrabajo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:background="#FFFFFF"
+        android:hint="Ingrese trabajo" />
+
+    <EditText
+        android:id="@+id/edtCargo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:background="#FFFFFF"
+        android:hint="Ingrese cargo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_margin="24dp"
+        android:background="#C3B5B5"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/edtFechaIngreso"
+            android:layout_width="240dp"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:background="#FEFEFE"
+            android:hint="Fecha de ingreso" />
+
+        <ImageButton
+            android:id="@+id/btnFechaIngreso"
+            android:layout_width="38dp"
+            android:layout_height="match_parent"
+            app:srcCompat="@android:drawable/ic_menu_my_calendar" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnConsultar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:background="@drawable/buttoncolor"
+        android:text="Consultar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="2dp"
+            android:text="Usuario:" />
+
+        <TextView
+            android:id="@+id/txtUsuarioI"
+            android:layout_width="289dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp" />
+    </LinearLayout>
+
+</LinearLayout>
